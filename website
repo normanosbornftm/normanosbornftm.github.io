@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlueBerry Website</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .logo img {
+      width: 100px; /* Adjust according to your logo size */
+    }
+
+    h1 {
+      font-size: 36px;
+    }
+
+    .intro {
+      padding: 50px 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .box {
+      background: linear-gradient(to bottom right, #4a67a9, #8057a9);
+      border: 2px solid #4a67a9;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    hr {
+      border-top: 2px solid #4a67a9;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="bblogo1.png" alt="BlueBerry Logo">
+  </div>
+  <h1>BlueBerry</h1>
+</header>
+
+<section class="intro">
+  <div class="container">
+    <div class="box">
+      <p>BlueBerry token backed 1:1 with Real World BlueBerries.</p>
+    </div>
+    <hr>
+    <!-- Additional content goes here -->
+  </div>
+</section>
+
+<footer>
+  <p>Built by the team behind BlueBerry Token</p>
+</footer>
+
+</body>
+</html>
